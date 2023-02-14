@@ -38,12 +38,15 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+
   - [Setup](#setup)
-  <!-- - [Prerequisites](#prerequisites)
+
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  <!-- - [Prerequisites](#prerequisites)
   - [Deployment](#triangular_flag_on_post-deployment) -->
+
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -114,7 +117,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to:
+In order to run this project :
 
 <!--
 Example command:
@@ -123,14 +126,41 @@ Example command:
 ```
  -->
 
-### Setup
+You need to have Node.js installed.
 
-Clone this repository to your desired folder:
+### Setup
 
 https://github.com/GraceHtet/mathMagician.git
 
-and you are ready to use it. You don't need to install anything or setup anything.
-Good luck!
+Clone this repo into your desire folder and then cd into it.
+
+### Install
+
+```sh
+npm install
+```
+
+### Usage
+
+Run following command to start development server with live update.
+
+```sh
+npm run start
+```
+
+To build the app
+
+```sh
+npm run build
+```
+
+### Run tests
+
+There is no tests in this project but if you want to check linter errors run following command.
+
+```sh
+npm run linters
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
