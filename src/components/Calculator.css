@@ -1,10 +1,11 @@
 .cal-container {
-  width: 30vw;
+  width: 25vw;
   background: navajowhite;
   color: #121212;
   font-size: 18px;
   line-height: 3;
   border-radius: 10px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
