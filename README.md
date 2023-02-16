@@ -65,9 +65,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-<!-- ### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> I use react.js for front-end.
 
 <details>
   <summary>Client</summary>
@@ -76,7 +76,7 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -96,9 +96,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-<!-- - **[JS OBJECTS]**
+- **[JS OBJECTS]**
 - **[BASIC HTML]**
-- **[WEBPACK]** -->
+- **[REACT]** -->
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
