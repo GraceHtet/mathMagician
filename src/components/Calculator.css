@@ -1,8 +1,8 @@
 .cal-container {
-  width: 25vw;
+  width: 20vw;
+  height: 40vh;
   background: navajowhite;
   color: #121212;
-  font-size: 18px;
   line-height: 3;
   border-radius: 10px;
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
@@ -21,9 +21,10 @@
 }
 
 .btn {
-  border: none;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
+  font-size: 18px;
+  border: none;
   cursor: pointer;
 }
 
