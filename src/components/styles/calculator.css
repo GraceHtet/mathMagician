@@ -1,35 +1,40 @@
 .cal-container {
-  width: 20vw;
-  height: 40vh;
-  background: navajowhite;
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  column-gap: 5em;
+}
+
+.buttons {
+  width: 40%;
   color: #121212;
   line-height: 3;
   border-radius: 10px;
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   overflow: hidden;
 }
 
 .display {
+  width: 30%;
   text-align: right;
   padding-right: 10%;
-  font-weight: bold;
-  font-size: 24px;
+  font-size: 5em;
   grid-area: 1/ 1 / span 1 / span 4;
 }
 
 .btn {
-  background: rgba(0, 0, 0, 0.8);
+  background: transparent;
   color: #fff;
-  font-size: 18px;
-  border: none;
+  font-size: 2em;
+  border: 1.5px solid #fff;
   cursor: pointer;
 }
 
 .btn:nth-of-type(17) {
-  grid-area: 6/1 / span 1 / span 2;
+  grid-area: 5/1 / span 1 / span 2;
 }
 
 .btn:hover {

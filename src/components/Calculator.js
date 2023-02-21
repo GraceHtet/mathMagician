@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import './Calculator.css';
+
+import '../index.css';
+import './styles/calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -27,23 +29,30 @@ const Calculator = () => {
   ];
 
   return (
-    <div className="cal-container">
-      <div className="display">
-        {val.total}
-        {val.operation}
-        {val.next}
+    <>
+      <h2>Let&apos;s do some Math</h2>
+      <div className="cal-container">
+        <div className="buttons">
+          {numSigns.map((num) => (
+            <button
+              type="button"
+              className="btn"
+              key={num}
+              onClick={() => setVal(calculate(val, num))}
+            >
+              {num}
+            </button>
+          ))}
+        </div>
+        <div className="display">
+          <p>
+            {val.total}
+            {val.operation}
+            {val.next}
+          </p>
+        </div>
       </div>
-      {numSigns.map((num) => (
-        <button
-          type="button"
-          className="btn"
-          key={num}
-          onClick={() => setVal(calculate(val, num))}
-        >
-          {num}
-        </button>
-      ))}
-    </div>
+    </>
   );
 };
 

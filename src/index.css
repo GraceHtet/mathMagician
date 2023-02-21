@@ -1,8 +1,64 @@
+@font-face {
+  font-family: 'Orion Chalk Solid';
+  src:
+    local('Orion Chalk Solid Demo Version'),
+    url('./assets/font/orion-chalk-demo.solid-version.otf');
+}
+
 body {
   width: 100%;
   height: 100vh;
-  background-color: antiquewhite;
+  background-image:
+    url('./assets/img/bg.jpg'),
+    linear-gradient(#1c4d37, #1c4d37);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-family: 'Orion Chalk Solid', sans-serif;
+  color: #fff;
   display: flex;
-  justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  padding-left: 13%;
+  padding-top: 8%;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+ul {
+  width: 20vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  font-style: italic;
+  padding-left: 0;
+  margin-bottom: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  font-family: inherit;
+}
+
+a:hover {
+  color: #fad48b;
 }

@@ -61,7 +61,8 @@ After you're finished please remove all the comments and instructions!
 
 > This is the project using reactjs.
 
-**[Math-Magician]** is a project build with using create-react-app.
+**[Math-Magician]** can do math calculation like add, subtract, multiply and division.
+<img src="./src/assets/img/mathMagician.png" alt="screen-shot"/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -98,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[JS OBJECTS]**
 - **[BASIC HTML]**
-- **[REACT]** -->
+- **[REACT]**
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
