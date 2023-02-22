@@ -1,0 +1,51 @@
+.cal-page {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+
+h2 {
+  font-size: 4.5em;
+}
+
+.cal-container {
+  width: auto;
+  height: 30vh;
+}
+
+.buttons {
+  width: 30vw;
+  color: #121212;
+  line-height: 3;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+}
+
+.display {
+  width: 100%;
+  text-align: center;
+  padding-right: 10%;
+  font-size: 5em;
+  grid-area: 1/ 1 / span 1 / span 4;
+}
+
+.btn {
+  background: transparent;
+  color: #fff;
+  font-size: 2em;
+  border: 1.5px solid #fff;
+  cursor: pointer;
+}
+
+.btn:nth-of-type(17) {
+  grid-area: 5/1 / span 1 / span 2;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #aaa;
+}

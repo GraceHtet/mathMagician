@@ -1,0 +1,14 @@
+.head-nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  align-items: center;
+}
