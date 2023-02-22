@@ -29,8 +29,8 @@ const Calculator = () => {
   ];
 
   return (
-    <>
-      <h2>Let&apos;s do some Math</h2>
+    <div className="cal-page">
+      <h2>Let&apos;s do some Math!</h2>
       <div className="cal-container">
         <div className="buttons">
           {numSigns.map((num) => (
@@ -52,7 +52,7 @@ const Calculator = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

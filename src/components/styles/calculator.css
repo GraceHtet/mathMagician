@@ -1,13 +1,20 @@
-.cal-container {
+.cal-page {
   width: 80%;
-  height: 30vh;
   display: flex;
-  align-items: center;
-  column-gap: 5em;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+
+h2 {
+  font-size: 4.5em;
+}
+.cal-container {
+  width: auto;
+  height: 30vh;
 }
 
 .buttons {
-  width: 40%;
+  width: 30vw;
   color: #121212;
   line-height: 3;
   border-radius: 10px;
@@ -18,8 +25,8 @@
 }
 
 .display {
-  width: 30%;
-  text-align: right;
+  width: 100%;
+  text-align: center;
   padding-right: 10%;
   font-size: 5em;
   grid-area: 1/ 1 / span 1 / span 4;
