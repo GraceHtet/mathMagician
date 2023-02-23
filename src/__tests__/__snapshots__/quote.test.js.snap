@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Quote Text match SnapShot 1`] = `
+<div
+  class="quote"
+>
+  Mathematics is not about numbers, equations, computations, or alogrithms: It is about understanding -William Paul Thurston
+</div>
+`;

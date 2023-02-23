@@ -5,26 +5,16 @@ const Home = () => (
     <h2>Welcome to our page</h2>
     <div className={homeStyle.info}>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        A calculation is a deliberate mathematical process that transforms one
+        or more inputs into one or more outputs or results. The term is used in
+        a variety of senses, from the very definite arithmetical calculation of
+        using an algorithm.
       </p>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Math magic tricks can liven up any math class and create a sense of
+        wonder and curiosity about math. Not only that, math magic creates a new
+        context for algebraic reasoning as students go beyond What is the
+        answer? to explore What is the trick?
       </p>
     </div>
   </>

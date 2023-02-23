@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders Display component 1`] = `
+<div
+  class="display"
+  data-testid="display"
+>
+  <p />
+</div>
+`;
+
+exports[`Calculator show % 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  %
+</button>
+`;
+
+exports[`Calculator show + 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  +
+</button>
+`;
+
+exports[`Calculator show +/- 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  +/-
+</button>
+`;
+
+exports[`Calculator show . 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  .
+</button>
+`;
+
+exports[`Calculator show = 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  =
+</button>
+`;
+
+exports[`Calculator show - 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  -
+</button>
+`;
+
+exports[`Calculator show 0 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  0
+</button>
+`;
+
+exports[`Calculator show 1 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  1
+</button>
+`;
+
+exports[`Calculator show 2 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  2
+</button>
+`;
+
+exports[`Calculator show 3 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  3
+</button>
+`;
+
+exports[`Calculator show 4 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  4
+</button>
+`;
+
+exports[`Calculator show 5 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  5
+</button>
+`;
+
+exports[`Calculator show 6 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  6
+</button>
+`;
+
+exports[`Calculator show 7 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  7
+</button>
+`;
+
+exports[`Calculator show 8 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  8
+</button>
+`;
+
+exports[`Calculator show 9 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  9
+</button>
+`;
+
+exports[`Calculator show AC 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`Calculator show x 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  x
+</button>
+`;
+
+exports[`Calculator show ÷ 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  ÷
+</button>
+`;
