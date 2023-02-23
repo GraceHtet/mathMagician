@@ -44,7 +44,8 @@ const Calculator = () => {
             </button>
           ))}
         </div>
-        <div className="display">
+
+        <div data-testid="display" className="display">
           <p>
             {val.total}
             {val.operation}

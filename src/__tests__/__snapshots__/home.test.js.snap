@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Home Page Title match SnapShot 1`] = `
+<h2>
+  Welcome to our page
+</h2>
+`;
+
+exports[`Home Home Text match SnapShot 1`] = `
+<p>
+  A calculation is a deliberate mathematical process that transforms one or more inputs into one or more outputs or results. The term is used in a variety of senses, from the very definite arithmetical calculation of using an algorithm.
+</p>
+`;
